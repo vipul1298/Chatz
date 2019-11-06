@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1027452962052",
+    "firebase_url": "https://chatz-722fe.firebaseio.com",
+    "project_id": "chatz-722fe",
+    "storage_bucket": "chatz-722fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027452962052:android:0aeb5d15600e1271",
+        "android_client_info": {
+          "package_name": "android.example.startactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027452962052-5v9rq65i2b0aflf4pdife0ao364qtjau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.startactivity",
+            "certificate_hash": "3f31466263a62a4f725e40a3dfd35e28a4a0a9d2"
+          }
+        },
+        {
+          "client_id": "1027452962052-vobfs7lkrussufm0k4fg030deot4a473.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhWA-BsupzjXbbtTtxC2ZTN-R5uxQqOYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027452962052-vobfs7lkrussufm0k4fg030deot4a473.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

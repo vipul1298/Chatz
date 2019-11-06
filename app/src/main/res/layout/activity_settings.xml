@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/settings_toolbar">
+
+    </include>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:paddingTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:src="@drawable/profile_image"
+        app:civ_border_width="4dp"
+        android:layout_marginTop="45dp"
+        app:civ_border_color="@color/colorPrimary"
+        />
+
+    <EditText
+        android:id="@+id/set_username"
+        android:inputType="textMultiLine"
+        android:hint="Username"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:background="@drawable/inputs"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableStart="@drawable/edit_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/set_profile_status"
+        android:inputType="textMultiLine"
+        android:hint="Hey! I m available"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:background="@drawable/inputs"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableStart="@drawable/edit_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_username"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:id="@+id/update_settings"
+        android:text="Update"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:padding="6dp"
+        android:background="@drawable/buttons"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_profile_status"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>
